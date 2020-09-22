@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  healtcheckapp:
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - '16060:80'
